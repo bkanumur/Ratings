@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Emoji Rating</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="feedback-container">
+    <div class="emoji-display">
+      <i class="far fa-meh fa-6x"></i>
+    </div>
+    <div class="rating-container">
+      <div class="stars">
+        <i class="fas fa-star fa-2x" title="Very Bad"></i>
+        <i class="fas fa-star fa-2x" title="Bad"></i>
+        <i class="fas fa-star fa-2x" title="Okay"></i>
+        <i class="fas fa-star fa-2x" title="Good"></i>
+        <i class="fas fa-star fa-2x" title="Excellent"></i>
+      </div>
+      <div class="feedback-text">Hover over stars to rate!</div>
+    </div>
+    <button class="reset-btn">Reset</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
